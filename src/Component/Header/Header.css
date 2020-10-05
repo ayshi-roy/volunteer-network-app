@@ -1,0 +1,9 @@
+.navbar img{
+    height: 50px;
+}
+.navbar-nav, .nav-item, .nav-link{
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    margin-right: 15px;
+}

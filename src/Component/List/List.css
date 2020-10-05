@@ -1,0 +1,15 @@
+.detail{
+    display: flex;    
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+.imgPart img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+.detailPart{
+    margin-left: 15px;    
+}
