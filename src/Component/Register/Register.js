@@ -30,7 +30,7 @@ const Register = () => {
       const handleSubmit = () => {
         const newVolunteer = {...logInUser,...selectedDate,title};
         console.log(newVolunteer);
-        fetch('http://localhost:5000/addUser',{
+        fetch('https://whispering-harbor-42099.herokuapp.com/addUser',{
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(newVolunteer)

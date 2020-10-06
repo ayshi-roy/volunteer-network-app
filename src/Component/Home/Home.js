@@ -10,7 +10,7 @@ const Home = () => {
     const [volunteerValue, setVolunteerValue] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/showCard')
+        fetch('https://whispering-harbor-42099.herokuapp.com/showCard')
         .then(res => res.json())
         .then(data => setVolunteerValue(data))
     },[])

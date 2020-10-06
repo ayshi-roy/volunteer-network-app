@@ -7,7 +7,7 @@ const List = (props) => {
     const [deleted, setDeleted] = useState(false);
 
     const deleteProduct = (id) =>{        
-        fetch('http://localhost:5000/delete/'+id,{
+        fetch('https://whispering-harbor-42099.herokuapp.com/delete/'+id,{
             method: 'DELETE'
         })
         .then(res => res.json())
